@@ -11,7 +11,7 @@ char generateRandomCharacter() {
 }
 
 // Function to play the casino match game
-void playCasinoGame(int cash) {
+void playCasinoGame(int& cash) {
     char guess;
     int matchCount = 0;
 
